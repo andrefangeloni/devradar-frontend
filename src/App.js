@@ -1,7 +1,8 @@
 import React from 'react';
 
-import './global.css';
 import './App.css';
+import './Main.css';
+import './global.css';
 import './Sidebar.css';
 
 function App() {
@@ -36,7 +37,52 @@ function App() {
         </form>
       </aside>
       <main>
-
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/51930261?s=460&v=4" alt="André Angeloni"/>
+              <div className="user-info">
+                <strong>André Angeloni</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Biografia do usuário</p>
+            <a href="https://github.com/andrefangeloni">Acessar perfil no GitHub</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/51930261?s=460&v=4" alt="André Angeloni"/>
+              <div className="user-info">
+                <strong>André Angeloni</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Biografia do usuário</p>
+            <a href="https://github.com/andrefangeloni">Acessar perfil no GitHub</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/51930261?s=460&v=4" alt="André Angeloni"/>
+              <div className="user-info">
+                <strong>André Angeloni</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Biografia do usuário</p>
+            <a href="https://github.com/andrefangeloni">Acessar perfil no GitHub</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars3.githubusercontent.com/u/51930261?s=460&v=4" alt="André Angeloni"/>
+              <div className="user-info">
+                <strong>André Angeloni</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Biografia do usuário</p>
+            <a href="https://github.com/andrefangeloni">Acessar perfil no GitHub</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
